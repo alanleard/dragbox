@@ -1,0 +1,52 @@
+".container" : {
+	top:50,
+	left:50,
+	right:50,
+	bottom:50,
+	backgroundColor:"transparent"
+}
+".touchPoint" : {
+	height:30,
+	width:30,
+	borderRadius:15,
+	backgroundColor:Alloy.CFG.colors.green1,
+	borderColor:Alloy.CFG.colors.black,
+	borderWidth:1
+}
+"#box" : {
+	top:15,
+	left:15,
+	right:15,
+	bottom:15,
+	borderWidth:2,
+	borderColor:"#000"
+}
+"#topLeft" : {
+	top:0,
+	left:0
+}
+"#topRight" : {
+	top:0,
+	right:0
+}
+"#bottomLeft" : {
+	bottom:0,
+	left:0
+}
+"#bottomRight" : {
+	bottom:0,
+	right:0
+}
+"#centerPoint" : {
+	height:25,
+	paddingLeft:10,
+	paddingRight:10,
+	backgroundColor:Alloy.CFG.colors.gray1,
+	color:"#fff",
+	borderRadius:5,
+	borderWidth:1,
+	borderColor:"#000",
+	textAlign:"center",
+	opacity:0.9
+}
+

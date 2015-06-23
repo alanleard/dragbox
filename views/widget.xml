@@ -1,0 +1,10 @@
+<Alloy>
+	<View id="container" class="container">
+		<View id="box" />
+		<View id="topLeft" class="touchPoint" onTouchmove="moveTopLeft" onTouchstart="setActive" onTouchend="setInactive"/>
+		<View id="topRight" class="touchPoint" onTouchmove="moveTopRight" onTouchstart="setActive" onTouchend="setInactive"/>
+		<View id="bottomLeft" class="touchPoint" onTouchmove="moveBottomLeft" onTouchstart="setActive" onTouchend="setInactive"/>
+		<View id="bottomRight" class="touchPoint" onTouchmove="moveBottomRight" onTouchstart="setActive" onTouchend="setInactive"/>
+		<Label id="centerPoint" onTouchmove="moveBottom"/>
+	</View>
+</Alloy>
